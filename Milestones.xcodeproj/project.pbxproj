@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -490,8 +490,8 @@
 			targets = (
 				8F85948D247240F10053A911 /* Milestones */,
 				8FC60DF9248304C000D4C9D7 /* MilestonesCore */,
-				8FC60E01248304C000D4C9D7 /* MilestonesCoreTests */,
 				8FE4FB27255DB3740030C979 /* MilestonesWidgetExtension */,
+				8FC60E01248304C000D4C9D7 /* MilestonesCoreTests */,
 			);
 		};
 /* End PBXProject section */
@@ -756,7 +756,7 @@
 				CODE_SIGN_ENTITLEMENTS = Milestones/Milestones.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Milestones/Preview Content\"";
-				DEVELOPMENT_TEAM = X4ST43AL9W;
+				DEVELOPMENT_TEAM = CNKH4P77BW;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Milestones/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -766,7 +766,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.0.4;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jpsim.milestones;
+				PRODUCT_BUNDLE_IDENTIFIER = ec.com.jpsim.milestones;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
@@ -782,7 +782,7 @@
 				CODE_SIGN_ENTITLEMENTS = Milestones/Milestones.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Milestones/Preview Content\"";
-				DEVELOPMENT_TEAM = X4ST43AL9W;
+				DEVELOPMENT_TEAM = CNKH4P77BW;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Milestones/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -792,7 +792,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.0.4;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jpsim.milestones;
+				PRODUCT_BUNDLE_IDENTIFIER = ec.com.jpsim.milestones;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
@@ -807,7 +807,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 3;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = X4ST43AL9W;
+				DEVELOPMENT_TEAM = CNKH4P77BW;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 3;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -819,7 +819,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jpsim.MilestonesCore;
+				PRODUCT_BUNDLE_IDENTIFIER = ec.com.jpsim.milestones.core;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -836,7 +836,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 3;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = X4ST43AL9W;
+				DEVELOPMENT_TEAM = CNKH4P77BW;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 3;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -848,7 +848,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jpsim.MilestonesCore;
+				PRODUCT_BUNDLE_IDENTIFIER = ec.com.jpsim.milestones.core;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -863,7 +863,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 865LEQR26C;
+				DEVELOPMENT_TEAM = CNKH4P77BW;
 				INFOPLIST_FILE = MilestonesCoreTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -871,7 +871,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jpsim.MilestonesCoreTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jpsim.MilestonesCoreTests.econtrol;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -884,7 +884,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 865LEQR26C;
+				DEVELOPMENT_TEAM = CNKH4P77BW;
 				INFOPLIST_FILE = MilestonesCoreTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -892,7 +892,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jpsim.MilestonesCoreTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jpsim.MilestonesCoreTests.econtrol;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -908,7 +908,7 @@
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CODE_SIGN_ENTITLEMENTS = MilestonesWidget/MilestonesWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X4ST43AL9W;
+				DEVELOPMENT_TEAM = CNKH4P77BW;
 				INFOPLIST_FILE = MilestonesWidget/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -917,7 +917,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 0.0.4;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jpsim.milestones.widget;
+				PRODUCT_BUNDLE_IDENTIFIER = ec.com.jpsim.milestones.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = YES;
@@ -934,7 +934,7 @@
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CODE_SIGN_ENTITLEMENTS = MilestonesWidget/MilestonesWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X4ST43AL9W;
+				DEVELOPMENT_TEAM = CNKH4P77BW;
 				INFOPLIST_FILE = MilestonesWidget/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -943,7 +943,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 0.0.4;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jpsim.milestones.widget;
+				PRODUCT_BUNDLE_IDENTIFIER = ec.com.jpsim.milestones.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = YES;
